@@ -2,59 +2,73 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    color: #1F2937; /* Cor geral do texto */
 }
 
-header {
-    background-color: #1F2937;
-    color: #F9FAF8;
+header, footer {
+    background-color: #1F2937; /* Cor de fundo escura para cabeçalho e rodapé */
+    color: #F9FAF8; /* Cor do texto para cabeçalho e rodapé */
     padding: 20px;
     text-align: center;
 }
 
 header nav a {
-    color: #F9FAF8;
+    color: #F9FAF8; /* Cor do texto dos links no cabeçalho */
     text-decoration: none;
     margin: 0 10px;
+    font-size: 18px; /* Tamanho do texto dos links no cabeçalho */
 }
 
 .hero {
-    background-color: #1F2937;
+    background-color: #1F2937; /* Cor de fundo escura para a seção hero */
     color: #F9FAF8;
     text-align: center;
     padding: 50px 20px;
 }
 
+.hero h1 {
+    font-size: 48px; /* Tamanho grande do texto principal */
+    font-weight: 800; /* Peso extra-negrito conforme especificado */
+}
+
+.hero p {
+    font-size: 18px; /* Tamanho do texto secundário */
+}
+
 .info {
-    background-color: #E5E7EB;
+    background-color: #E5E7EB; /* Cor de fundo clara para a seção de informações */
     text-align: center;
     padding: 20px;
 }
 
-.info .info-boxes div {
-    margin: 10px;
-    padding: 10px;
+.info h2 {
+    font-size: 36px; /* Tamanho do texto do cabeçalho da seção de informações */
+    font-weight: 800; /* Peso extra-negrito */
+    color: #1F2937; /* Cor escura do texto */
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #E5E7EB; /* Cor de fundo clara para a seção de citação */
     color: #1F2937;
-    font-style: italic;
+    font-style: italic; /* Estilo itálico */
     text-align: center;
     padding: 20px;
+    font-size: 36px; /* Tamanho do texto da citação */
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: #1F2937; /* Cor de fundo escura para o rodapé */
     color: #F9FAF8;
     text-align: center;
     padding: 20px;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #3882F6; /* Cor de fundo para botões */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 10px;
+    font-size: 24px; /* Tamanho do texto do botão */
 }
