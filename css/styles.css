@@ -3,7 +3,7 @@ body {
     color: #1F2937;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px;
@@ -21,4 +21,12 @@ header {
     background-color: #E5E7EB;
     text-align: center;
     padding: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
 }
