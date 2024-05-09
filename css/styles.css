@@ -17,3 +17,8 @@ header {
     text-align: center;
 }
 
+.info {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
