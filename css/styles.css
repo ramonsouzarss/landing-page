@@ -1,20 +1,27 @@
-body {
+body, html {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    color: #1F2937;
 }
 
-header, footer {
+header {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px;
     text-align: center;
 }
 
+header nav a {
+    color: #F9FAF8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 50px;
     text-align: center;
+    padding: 50px 20px;
 }
 
 .info {
@@ -23,24 +30,31 @@ header, footer {
     padding: 20px;
 }
 
+.info .info-boxes div {
+    margin: 10px;
+    padding: 10px;
+}
+
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
 
 button {
     background-color: #3882F6;
-    color: #ffffff;
+    color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-}
-
-nav a {
-    color: #F9FAF8;
-    text-decoration: none;
-    margin: 0 10px;
+    margin-top: 10px;
 }
