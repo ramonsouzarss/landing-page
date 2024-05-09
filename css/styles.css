@@ -30,3 +30,11 @@ header, footer {
     padding: 20px;
     text-align: center;
 }
+
+button {
+    background-color: #3882F6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
