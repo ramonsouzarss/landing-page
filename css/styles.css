@@ -38,3 +38,9 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+nav a {
+    color: #F9FAF8;
+    text-decoration: none;
+    margin: 0 10px;
+}
